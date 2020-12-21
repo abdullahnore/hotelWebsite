@@ -85,9 +85,9 @@ p{
 .l-heading
 {
   font-size: 40px;
-  margin-top: 15px;
+  margin: 15px;
   text-align: center;
-
+  line-height: 35px;
 }
 /*utility class end  */
 /* navbar*/
@@ -123,6 +123,12 @@ p{
 {
   background-color: #4444;
   color:rgb(247, 159, 44);
+}
+#navbar .logo
+{
+  float: left;
+  padding-top: 20px;
+
 }
 /*showcase*/
 #showcase
@@ -198,6 +204,16 @@ p{
   height: 340px;
   border-radius: 50%;
   
+}#about-info .info-right img
+{
+
+  float:right;
+  width:50%;
+  display: block;
+  min-height: 100%;
+  height: 340px;
+  border-radius: 50%;
+  
 }
 #about-info .info-left
 {
@@ -214,7 +230,7 @@ padding-top: 140px;
 /* tesmonaials */
 #testimonials
 {
-  height: 600px;
+  height:100%;
   background: url(../img/test-bg.jpg) no-repeat center center/cover;
   padding-top: 40px;
 }
